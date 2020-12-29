@@ -22,7 +22,9 @@ span{
      /* Flex takes up the entire line */
      display: flex; 
      flex-wrap: wrap;
-     flex-flow: row-reverse;
+     flex-direction: column;
+     height: 800px;
+     justify-content:space-between;
      
 
  }
