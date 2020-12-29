@@ -19,8 +19,11 @@ span{
  .container{
      border: 6px solid purple;
      /* inline-flex only takes up what is needed for the children */
-     display: inline-flex; 
      /* Flex takes up the entire line */
+     display: flex; 
+     flex-direction: column-reverse;
+     
+
  }
  .flex-item{
      color: white;
