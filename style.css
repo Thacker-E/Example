@@ -37,7 +37,6 @@ span{
  }
  .item-1{
     background-color: red;
-    flex-basis: auto;
  }
  .item-2{
      background-color: orangered;
@@ -56,6 +55,7 @@ span{
 }
 .item-7{
      background-color: blueviolet;
+     flex: 2 2 200px;
 }
 .item-8{
      background-color: purple;
