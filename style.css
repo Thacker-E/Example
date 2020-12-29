@@ -13,13 +13,13 @@ span{
      background-color: lawngreen;
  } */
     
- body{
+ /* body{
      margin: 0px;
  }
  .container{
      border: 6px solid purple;
-     /* inline-flex only takes up what is needed for the children */
-     /* Flex takes up the entire line */
+     inline-flex only takes up what is needed for the children
+     Flex takes up the entire line
      display: flex; 
      height: 400px;
      flex-wrap: wrap; 
@@ -34,14 +34,12 @@ span{
  }
  .item-1{
     background-color: red;
-    align-self: flex-start;
  }
  .item-2{
      background-color: orangered;
 }
 .item-3{
      background-color: orange;
-     align-self: flex-end;
 }
 .item-4{
      background-color: yellow;
@@ -51,7 +49,6 @@ span{
 }
 .item-6{
      background-color: blue;
-     align-self: center;
 }
 .item-7{
      background-color: blueviolet;
@@ -61,4 +58,26 @@ span{
 }
 .item-9{
      background-color: violet;
+} */
+
+nav{
+    font-size: 2rem;
+    background-color: aliceblue;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+nav ul li{
+    cursor: pointer;
+    padding: .5rem;
+    flex:auto;
+    text-align: center;
+}
+nav ul li:hover{
+    background-color: crimson;
+    color: white;
 }
