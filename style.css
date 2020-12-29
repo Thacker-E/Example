@@ -21,11 +21,8 @@ span{
      /* inline-flex only takes up what is needed for the children */
      /* Flex takes up the entire line */
      display: flex; 
-     height: 800px;
-     flex-wrap: wrap;
-     align-content: flex-start;
-     
-     
+     height: 400px;
+     flex-wrap: wrap; 
  }
  
  .flex-item{
@@ -37,12 +34,14 @@ span{
  }
  .item-1{
     background-color: red;
+    align-self: flex-start;
  }
  .item-2{
      background-color: orangered;
 }
 .item-3{
      background-color: orange;
+     align-self: flex-end;
 }
 .item-4{
      background-color: yellow;
@@ -52,10 +51,10 @@ span{
 }
 .item-6{
      background-color: blue;
+     align-self: center;
 }
 .item-7{
      background-color: blueviolet;
-     flex: 2 2 200px;
 }
 .item-8{
      background-color: purple;
