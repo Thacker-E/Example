@@ -22,6 +22,7 @@ span{
      /* Flex takes up the entire line */
      display: flex; 
      flex-wrap: wrap;
+     flex-flow: row-reverse;
      
 
  }
