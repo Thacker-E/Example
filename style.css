@@ -22,7 +22,8 @@ span{
      /* Flex takes up the entire line */
      display: flex; 
      height: 800px;
-     align-items: baseline;
+     flex-wrap: wrap;
+     align-content: space-around;
      
 
  }
