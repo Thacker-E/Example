@@ -25,13 +25,14 @@ span{
      flex-wrap: wrap;
      align-content: space-around;
      
-
  }
+ 
  .flex-item{
      color: white;
      font-size: 1.5rem;
      padding: 1rem;
      text-align: center;
+     flex-grow: 1;
  }
  .item-1{
     background-color: red;
@@ -41,7 +42,6 @@ span{
 }
 .item-3{
      background-color: orange;
-     order: 1;
 }
 .item-4{
      background-color: yellow;
@@ -54,7 +54,6 @@ span{
 }
 .item-7{
      background-color: blueviolet;
-     order: 2;
 }
 .item-8{
      background-color: purple;
