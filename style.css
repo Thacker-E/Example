@@ -60,7 +60,7 @@ span{
      background-color: violet;
 } */
 
-nav{
+/* nav{
     font-size: 2rem;
     background-color: aliceblue;
 }
@@ -69,7 +69,7 @@ nav ul{
     margin: 0;
     padding: 0;
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 nav ul li{
     cursor: pointer;
@@ -80,4 +80,58 @@ nav ul li{
 nav ul li:hover{
     background-color: crimson;
     color: white;
+} */
+
+*{
+    margin: 2px;
+}
+
+body{
+    font-size: 24px;
+    color: antiquewhite;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-header{
+    background-color: plum;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.flex-main{
+    display: flex;
+    flex: 1;
+}
+
+.flex-nav{
+    background-color:lightcoral;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+
+.flex-article{
+    background-color: cornflowerblue;
+    padding-top: 3rem;
+    flex: 3 3;
+}
+
+.flex-aside{
+    background-color: darkseagreen;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+
+.flex-footer{
+    background-color: mediumaquamarine;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media all and (max-width:540px){
+    .flex-main{
+        flex-direction: column;
+    }
 }
