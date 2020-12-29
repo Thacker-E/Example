@@ -1,4 +1,5 @@
-
+/* From HTML course */
+/* 
 h2{
     border: 1px solid darkgrey;
  }
@@ -10,5 +11,47 @@ h2{
  }
 span{
      background-color: lawngreen;
- }
+ } */
     
+ body{
+     margin: 0px;
+ }
+ .container{
+     border: 6px solid purple;
+     /* inline-flex only takes up what is needed for the children */
+     display: inline-flex; 
+     /* Flex takes up the entire line */
+ }
+ .flex-item{
+     color: white;
+     font-size: 1.5rem;
+     padding: 1rem;
+     text-align: center;
+ }
+ .item-1{
+    background-color: red;
+ }
+ .item-2{
+     background-color: orangered;
+}
+.item-3{
+     background-color: orange;
+}
+.item-4{
+     background-color: yellow;
+}
+.item-5{
+     background-color: yellowgreen;
+}
+.item-6{
+     background-color: blue;
+}
+.item-7{
+     background-color: blueviolet;
+}
+.item-8{
+     background-color: purple;
+}
+.item-9{
+     background-color: violet;
+}

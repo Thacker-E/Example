@@ -1,1 +1,2 @@
-alert('Hello World!');
+// From HTML course
+// alert('Hello World!');
